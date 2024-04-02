@@ -6,9 +6,20 @@
 
 /* adjusting fonts */
 
+
+
 body {
 	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
+}
+
+body {
+    color: olivedrab;
+    Font-family: papyrus;
+}
+
+.cursive {
+    font-family: cursive;
 }
 
 p, li {
