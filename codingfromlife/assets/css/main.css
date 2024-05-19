@@ -1,5 +1,5 @@
 body {
-	background: #cccccc;
+	background: #000000;
 }
 
 #align {
@@ -17,6 +17,7 @@ body {
 	position: relative;
 }
 
+/*
 #triangle {
 	width: 0;
 	height: 0;
@@ -36,11 +37,13 @@ body {
 	left: 270px;
 	position: absolute;
 
+}
+
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
 
-}
 
+/*
 #circle {
 	width: 250px;
 	height: 250px;
@@ -74,7 +77,7 @@ body {
 #leftfoot {
 	width: 150px;
 	height: 100px;
-	background: indianred;
+	background: #D11330;
 	border-radius: 150px;
 	top: 363px;
 	left: 480px;
@@ -179,10 +182,218 @@ body {
 	top: 203px;
 	left: 690px;
 	position: absolute;
+}
+
+*/
+
+/*여기부터 추출한 css*/
+#desk
+{
+	background : #BCA88C;
+	background : rgba(188, 168, 140, 1);
+	position : absolute ;
+	left : -3px;
+	top : 402px;
+	width : 962px;
+	height : 163px;
+}
+
+#st3
+{
+	background : #BCA88C;
+	background : rgba(188, 168, 140, 1);
+	position : absolute ;
+	left : 493px;
+	top : 465px;
+	width : 466px;
+	height : 152px;
+}
+
+#st5
+{
+	background : #5E6A70;
+	background : rgba(94, 106, 112, 1);
+	position : absolute ;
+	left : -3px;
+	top : 613px;
+	width : 962px;
+	height : 325px;
+}
+#st6
+{
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 541px;
+	top : 244px;
+	width : 18px;
+	height : 41px;
+	border-radius : 8px;
+}
+#st7
+{
+	background : #C4D6D1;
+	background : rgba(196, 214, 209, 1);
+	position : absolute ;
+	left : 468px;
+	top : 336px;
+	width : 243px;
+	height : 46px;
+	border-radius : 23px;
+}
+
+#shiningeyeleft {
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	position : absolute ;
+	left : 543px;
+	top : 244px;
+	width : 12px;
+	height : 20px;
+	border-radius : 6px;
+}
+
+#purpleeye2 {
+	background : #9893D4;
+	background : rgba(152, 147, 212, 1);
+	position : absolute ;
+	left : 541px;
+	top : 244px;
+	width : 18px;
+	height : 49px;
+	border-radius : 9px;
+}
+
+#whoareyou {
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 600px;
+	top : 244px;
+	width : 18px;
+	height : 41px;
+	border-radius : 8px;
+}
+
+#righthand
+{
+	background : #B4CEC7;
+	background : rgba(180, 206, 199, 1);
+	position : absolute ;
+	left : 600px;
+	top : 233px;
+	width : 163px;
+	height : 154px;
+	border-radius : 0px 88px 44px 44px;
+}
+#body
+{
+	background : #C4D6D1;
+	background : rgba(196, 214, 209, 1);
+	position : absolute ;
+	left : 461px;
+	top : 188px;
+	width : 258px;
+	height : 258px;
+}
+#rightcheecknew
+{
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 629px;
+	top : 277px;
+	width : 33px;
+	height : 16px;
+}
+
+#shiningeyeright {
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	position : absolute ;
+	left : 603px;
+	top : 244px;
+	width : 12px;
+	height : 20px;
+	border-radius : 6px;
+}
+
+#mouthnew {
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 562px;
+	top : 301px;
+	width : 36px;
+	height : 9px;
+	border-radius : 31px 36px 0px 0px  / 0px;
+}
+
+#lefthand {
+	background : #B4CEC7;
+	background : rgba(180, 206, 199, 1);
+	position : absolute ;
+	left : 420px;
+	top : 241px;
+	width : 163px;
+	height : 154px;
+	border-radius : 88px 0px 44px 44px;
+	-moz-border-radius : 88px 0px 44px 44px;
+	-webkit-border-radius : 88px 0px 44px 44px;
+}
+#leftfootnew {
+	background : #E30026;
+	background : rgba(227, 0, 38, 1);
+	position : absolute ;
+	left : 451px;
+	top : 373px;
+	width : 141px;
+	height : 107px;
+}
+#purpleeye {
+	background : #9893D4;
+	background : rgba(152, 147, 212, 1);
+	position : absolute ;
+	left : 600px;
+	top : 244px;
+	width : 18px;
+	height : 49px;
+	border-radius : 9px;
+}
+
+#hip {
+	background : #C4D6D1;
+	background : rgba(196, 214, 209, 1);
+	position : absolute ;
+	left : 484px;
+	top : 379px;
+	width : 211px;
+	height : 33px;
+}
+
+#rightfootnew {
+	background : #E30026;
+	background : rgba(227, 0, 38, 1);
+	position : absolute ;
+	left : 587px;
+	top : 373px;
+	width : 141px;
+	height : 107px;
+}
+#leftcheeknew {
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 496px;
+	top : 277px;
+	width : 33px;
+	height : 16px;
+}
+
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
-}
+
 
 /* animations */
 
