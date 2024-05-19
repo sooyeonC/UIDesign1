@@ -13,7 +13,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: auto;
-	background: white;
+	background: #697885;
 	position: relative;
 }
 
@@ -195,7 +195,7 @@ body {
 	position : absolute ;
 	left : 0px;
 	top : 402px;
-	width : 962px;
+	width : 900px;
 	height : 163px;
 }
 
@@ -220,8 +220,7 @@ body {
 	width : 962px;
 	height : 325px;
 }
-#st6
-{
+#pinkeyeleft {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
 	position : absolute ;
@@ -231,6 +230,7 @@ body {
 	height : 41px;
 	border-radius : 8px;
 }
+
 #st7
 {
 	background : #C4D6D1;
@@ -265,7 +265,7 @@ body {
 	border-radius : 9px;
 }
 
-#whoareyou {
+#pinkeyeright {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
 	position : absolute ;
@@ -298,8 +298,7 @@ body {
 	border-radius : 0px 100px 44px 44px;
 }
 
-#body
-{
+#body {
 	background : #C4D6D1;
 	background : rgba(196, 214, 209, 1);
 	position : absolute ;
@@ -319,6 +318,7 @@ body {
 	width : 141px;
 	height : 107px;
 	border-radius : 70px 50px 70px 70px;
+	box-shadow: 2px 5px 10px 2px rgb(0, 0, 0, 0.6);
 }
 
 #rightfoot {
@@ -330,6 +330,7 @@ body {
 	width : 141px;
 	height : 107px;
 	border-radius : 50px 70px 70px 70px;
+	box-shadow: 2px 5px 10px 2px rgb(0, 0, 0, 0.6);
 }
 
 
@@ -355,7 +356,6 @@ body {
 	border-radius : 31px 36px 0px 0px  / 0px;
 }
 
-
 #purpleeye {
 	background : #9893D4;
 	background : rgba(152, 147, 212, 1);
@@ -371,10 +371,22 @@ body {
 	background : #C4D6D1;
 	background : rgba(196, 214, 209, 1);
 	position : absolute ;
-	left : 484px;
-	top : 379px;
-	width : 211px;
+	left : 474px;
+	top : 355px;
+	width : 231px;
 	height : 33px;
+	border-radius : 29px;
+}
+
+#triangle {
+   width: 0px;
+   height: 0px;
+   left : 478px;
+	 top : 385px;
+   border-left: 110px solid transparent;
+	 border-right: 110px solid transparent;
+	 border-bottom: 50px solid #C4D6D1;
+   transform: rotate(180deg);
 }
 
 #leftcheek {
@@ -399,6 +411,190 @@ body {
 	height : 16px;
 	border-radius : 9px;
 }
+
+.jam2
+{
+  background : #C13E66;
+  background : rgba(193, 62, 102, 1);
+  position : absolute ;
+  left : 264px;
+  top : 315px;
+  width : 196px;
+  height : 27px;
+}
+.cherry1
+{
+  background : #1B1C32;
+  background : rgba(27, 28, 50, 1);
+  position : absolute ;
+  left : 264px;
+  top : 227px;
+  width : 34px;
+  height : 34px;
+  border-radius : 20px;
+}
+.cream
+{
+  background : #CEDCC5;
+  background : rgba(206, 220, 197, 1);
+  position : absolute ;
+  left : 224px;
+  top : 240px;
+  width : 236px;
+  height : 128px;
+}
+.jam1
+{
+  background : #985E7C;
+  background : rgba(152, 94, 124, 1);
+  position : absolute ;
+  left : 264px;
+  top : 276px;
+  width : 196px;
+  height : 27px;
+}
+.cherry2
+{
+  background : #431A31;
+  background : rgba(67, 26, 49, 1);
+  position : absolute ;
+  left : 229px;
+  top : 222px;
+  width : 34px;
+  height : 34px;
+  border-radius : 20px;
+}
+
+.st0
+{
+  background : #6D7844;
+  background : rgba(109, 120, 68, 1);
+  position : absolute ;
+  left : 404px;
+  top : 279px;
+  width : 39px;
+  height : 39px;
+    border-radius : 20px;
+}
+.st1
+{
+  background : #6D7844;
+  background : rgba(109, 120, 68, 1);
+  position : absolute ;
+  left : 317px;
+  top : 326px;
+  width : 47px;
+  height : 25px;
+    border-radius : 20px;
+}
+.st2
+{
+  background : #C5C68C;
+  background : rgba(197, 198, 140, 1);
+  position : absolute ;
+  left : 361px;
+  top : 345px;
+  width : 22px;
+  height : 22px;
+  border-radius : 20px;
+}
+.st3
+{
+  background : #C5C68C;
+  background : rgba(197, 198, 140, 1);
+  position : absolute ;
+  left : 240px;
+  top : 364px;
+  width : 123px;
+  height : 16px;
+  border-radius : 20px;
+  transform: rotate(-15deg);
+}
+.st4
+{
+  background : #9A4453;
+  background : rgba(154, 68, 83, 1);
+  position : absolute ;
+  left : 356px;
+  top : 279px;
+  width : 59px;
+  height : 59px;
+    border-radius : 40px;
+}
+
+#st0
+{
+  background : #85939C;
+  background : rgba(133, 147, 156, 1);
+  position : absolute ;
+  left : 721px;
+  top : 345px;
+  width : 54px;
+  height : 123px;
+}
+#st1
+{
+  background : #D7D7D7;
+  background : rgba(215, 215, 215, 1);
+  position : absolute ;
+  left : 146px;
+  top : 402px;
+  width : 562px;
+  height : 49px;
+}
+#st2
+{
+  background : #3E121A;
+  background : rgba(62, 18, 26, 1);
+  position : absolute ;
+  left : 703px;
+  top : 401px;
+  width : 5px;
+  height : 50px;
+}
+#st3
+{
+  background : #DCE1DF;
+  background : rgba(220, 225, 223, 1);
+  position : absolute ;
+  left : 146px;
+  top : 384px;
+  width : 562px;
+  height : 16px;
+}
+#st4
+{
+  background : #DCE1DF;
+  background : rgba(220, 225, 223, 1);
+  position : absolute ;
+  left : 709px;
+  top : 384px;
+  width : 12px;
+  height : 84px;
+}
+#st5
+{
+  background : #85939C;
+  background : rgba(133, 147, 156, 1);
+  position : absolute ;
+  left : 146px;
+  top : 347px;
+  width : 628px;
+  height : 39px;
+}
+#st6
+{
+  background : #DCE1DF;
+  background : rgba(220, 225, 223, 1);
+  position : absolute ;
+  left : 146px;
+  top : 452px;
+  width : 562px;
+  height : 16px;
+}
+
+
+
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
