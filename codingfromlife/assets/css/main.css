@@ -1,5 +1,5 @@
 body {
-	background: #000000;
+	background: #F0F0F0;
 }
 
 #align {
@@ -275,8 +275,7 @@ body {
 	border-radius : 8px;
 }
 
-#righthand
-{
+#righthand {
 	background : #B4CEC7;
 	background : rgba(180, 206, 199, 1);
 	position : absolute ;
@@ -284,19 +283,21 @@ body {
 	top : 233px;
 	width : 163px;
 	height : 154px;
-	border-radius : 0px 88px 44px 44px;
+	border-radius : 0px 100px 44px 44px;
 }
+
 #body
 {
 	background : #C4D6D1;
 	background : rgba(196, 214, 209, 1);
 	position : absolute ;
+	border-radius: 150px;
 	left : 461px;
 	top : 188px;
 	width : 258px;
 	height : 258px;
 }
-#rightcheecknew
+#rightcheeck
 {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
@@ -318,7 +319,7 @@ body {
 	border-radius : 6px;
 }
 
-#mouthnew {
+#mouth {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
 	position : absolute ;
@@ -337,11 +338,10 @@ body {
 	top : 241px;
 	width : 163px;
 	height : 154px;
-	border-radius : 88px 0px 44px 44px;
-	-moz-border-radius : 88px 0px 44px 44px;
-	-webkit-border-radius : 88px 0px 44px 44px;
+	border-radius : 100px 0px 44px 44px;
 }
-#leftfootnew {
+
+#leftfoot {
 	background : #E30026;
 	background : rgba(227, 0, 38, 1);
 	position : absolute ;
@@ -371,7 +371,7 @@ body {
 	height : 33px;
 }
 
-#rightfootnew {
+#rightfoot {
 	background : #E30026;
 	background : rgba(227, 0, 38, 1);
 	position : absolute ;
@@ -380,7 +380,8 @@ body {
 	width : 141px;
 	height : 107px;
 }
-#leftcheeknew {
+
+#leftcheek {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
 	position : absolute ;
