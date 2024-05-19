@@ -1,0 +1,21 @@
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	transition: background 500ms ease;
+	background: #F0F0F0;
+
+	color: olivedrab;
+    Font-family: arial;
+}
+
+
+p {
+
+color: gray;
+
+}
