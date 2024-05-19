@@ -17,7 +17,7 @@ body {
 	position: relative;
 }
 
-/*
+
 #triangle {
 	width: 0;
 	height: 0;
@@ -29,6 +29,7 @@ body {
 	left: 60px;
 }
 
+/*
 #square {
 	width: 150px;
 	height: 150px;
@@ -192,7 +193,7 @@ body {
 	background : #BCA88C;
 	background : rgba(188, 168, 140, 1);
 	position : absolute ;
-	left : -3px;
+	left : 0px;
 	top : 402px;
 	width : 962px;
 	height : 163px;
@@ -275,6 +276,17 @@ body {
 	border-radius : 8px;
 }
 
+#lefthand {
+	background : #B4CEC7;
+	background : rgba(180, 206, 199, 1);
+	position : absolute ;
+	left : 420px;
+	top : 241px;
+	width : 163px;
+	height : 154px;
+	border-radius : 100px 0px 44px 44px;
+}
+
 #righthand {
 	background : #B4CEC7;
 	background : rgba(180, 206, 199, 1);
@@ -297,16 +309,29 @@ body {
 	width : 258px;
 	height : 258px;
 }
-#rightcheeck
-{
-	background : #E863B5;
-	background : rgba(232, 99, 181, 1);
+
+#leftfoot {
+	background : #E30026;
+	background : rgba(227, 0, 38, 1);
 	position : absolute ;
-	left : 629px;
-	top : 277px;
-	width : 33px;
-	height : 16px;
+	left : 451px;
+	top : 373px;
+	width : 141px;
+	height : 107px;
+	border-radius : 70px 50px 70px 70px;
 }
+
+#rightfoot {
+	background : #E30026;
+	background : rgba(227, 0, 38, 1);
+	position : absolute ;
+	left : 587px;
+	top : 373px;
+	width : 141px;
+	height : 107px;
+	border-radius : 50px 70px 70px 70px;
+}
+
 
 #shiningeyeright {
 	background : #FFFFFF;
@@ -330,26 +355,7 @@ body {
 	border-radius : 31px 36px 0px 0px  / 0px;
 }
 
-#lefthand {
-	background : #B4CEC7;
-	background : rgba(180, 206, 199, 1);
-	position : absolute ;
-	left : 420px;
-	top : 241px;
-	width : 163px;
-	height : 154px;
-	border-radius : 100px 0px 44px 44px;
-}
 
-#leftfoot {
-	background : #E30026;
-	background : rgba(227, 0, 38, 1);
-	position : absolute ;
-	left : 451px;
-	top : 373px;
-	width : 141px;
-	height : 107px;
-}
 #purpleeye {
 	background : #9893D4;
 	background : rgba(152, 147, 212, 1);
@@ -371,16 +377,6 @@ body {
 	height : 33px;
 }
 
-#rightfoot {
-	background : #E30026;
-	background : rgba(227, 0, 38, 1);
-	position : absolute ;
-	left : 587px;
-	top : 373px;
-	width : 141px;
-	height : 107px;
-}
-
 #leftcheek {
 	background : #E863B5;
 	background : rgba(232, 99, 181, 1);
@@ -389,8 +385,20 @@ body {
 	top : 277px;
 	width : 33px;
 	height : 16px;
+	border-radius : 9px;
 }
 
+#rightcheeck
+{
+	background : #E863B5;
+	background : rgba(232, 99, 181, 1);
+	position : absolute ;
+	left : 629px;
+	top : 277px;
+	width : 33px;
+	height : 16px;
+	border-radius : 9px;
+}
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
