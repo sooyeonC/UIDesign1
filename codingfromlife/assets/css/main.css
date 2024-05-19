@@ -353,7 +353,7 @@ body {
 	top : 301px;
 	width : 36px;
 	height : 9px;
-	border-radius : 31px 36px 0px 0px  / 0px;
+	border-radius : 6px
 }
 
 #purpleeye {
@@ -592,6 +592,60 @@ body {
   width : 562px;
   height : 16px;
 }
+
+#blbl1
+{
+  background : #1F1917;
+  background : rgba(31, 25, 23, 1);
+  position : absolute ;
+  left : 782px;
+  top : 0px;
+  width : 165px;
+  height : 38px;
+}
+#blbl2
+{
+  background : #1F1917;
+  background : rgba(31, 25, 23, 1);
+  position : absolute ;
+  left : 746px;
+  top : 156px;
+  width : 213px;
+  height : 248px;
+}
+#blbl3
+{
+  background : #1F1917;
+  background : rgba(31, 25, 23, 1);
+  position : absolute ;
+  left : 794px;
+  top : 0px;
+  width : 165px;
+  height : 183px;
+}
+#blbl4
+{
+  background : #1F1917;
+  background : rgba(31, 25, 23, 1);
+  position : absolute ;
+  left : 664px;
+  top : 154px;
+  width : 165px;
+  height : 38px;
+}
+
+#light
+{
+  background : #E2E2C4;
+  background : rgba(226, 226, 196, 1);
+  position : absolute ;
+  left : 711px;
+  top : 0px;
+  width : 103px;
+  height : 103px;
+  box-shadow: 0px 0px 15px rgb(226, 226, 196, 0.6);
+}
+
 
 
 
