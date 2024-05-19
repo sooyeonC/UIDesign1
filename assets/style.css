@@ -10,13 +10,10 @@
 body {
 	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
-	background: #f0f0f0;
+	background: #F0F0F0;
 
-}
-
-body {
-    color: olivedrab;
-    Font-family: papyrus;
+	color: olivedrab;
+    Font-family: Times New York;
 }
 
 .cursive {
@@ -24,7 +21,7 @@ body {
 }
 
 p, li {
-	font-size:  24px;
+	font-size:  20px;
 	line-height: 30px;
 }
 
@@ -32,6 +29,10 @@ p, li {
 
 #left-column {
 	padding: 20px;
+}
+
+p, ul, ol {
+	color:black;
 }
 
 h1, p {
