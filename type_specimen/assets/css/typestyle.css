@@ -1,20 +1,28 @@
+@font-face {
+    font-family: 'AvaraBold';
+    src: url('../../../assets/Bold/Avara-Bold.woff') format('woff'),
+         url('../../../assets/Bold/Avara-Bold.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 background{
 	color:#F0F0F0;
 }
 
 * {
-	margin:  0px;
+	margin:  10px;
 	padding:  0px;
 	box-sizing: border-box;
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, AvaraBold, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
 	background: #F0F0F0;
 
 	color: olivedrab;
-    Font-family: arial;
+    Font-family: AvaraBold;
 }
 
 

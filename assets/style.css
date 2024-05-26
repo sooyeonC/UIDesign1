@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "CirrusCumulus";
+  src: url("CirrusCumulus.woff");
+}
+
+@font-face {
+    font-family: 'AvaraBold';
+    src: url('Bold/Avara-Bold.woff') format('woff'),
+         url('Bold/Avara-Bold.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara_Bold Italic';
+    src: url('BoldItalic/Avara-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	margin:  0px;
 	padding:  0px;
@@ -8,16 +28,17 @@
 
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: -apple-system, CirrusCumulus, AvaraBold, Avara_Bold Italic, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
 	background: #F0F0F0;
 
 	color: olivedrab;
-    Font-family: arial;
+    Font-family: AvaraBold;
+
 }
 
 .cursive {
-    font-family: cursive;
+    font-family: Avara_Bold Italic;
 }
 
 p, li {
