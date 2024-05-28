@@ -45,6 +45,17 @@ body {
 
 }
 
+body.dark {
+	font-family: -apple-system, CirrusCumulus, AvaraBold, Avara_Bold Italic, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	transition: background 500ms ease;
+	background: #000000;
+
+	color: white;
+    Font-family: Arial;
+
+}
+
+
 .cursive {
     font-family: Avara_Bold Italic;
 }
