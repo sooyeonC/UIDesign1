@@ -1,7 +1,15 @@
-alert("hello, world!");
+document.querySelector('#darkmode').addEventListener('click', function() {
+      document.getElementsByTagName('body')[0].classList.toggle('dark');
+});
 
-document.querySelectorAll('.item').forEach(function(item) {
-	item.addEventListener('click', function() {
-		this.classList.toggle('active');
-	});
+document.querySelector('#darkmode').addEventListener('click', function() {
+      document.getElementsByTagName('p')[0].classList.toggle('dark');
+});
+
+document.querySelector('#darkmode').addEventListener('click', function() {
+      document.getElementsByTagName('ul')[0].classList.toggle('dark');
+});
+
+document.querySelector('#darkmode').addEventListener('click', function() {
+      document.getElementsByTagName('ol')[0].classList.toggle('dark');
 });

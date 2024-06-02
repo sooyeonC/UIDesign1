@@ -50,9 +50,13 @@ body.dark {
 	transition: background 500ms ease;
 	background: #000000;
 
-	color: white;
+	color: #6584A8;
     Font-family: Arial;
 
+}
+
+p.dark{
+	color:#6584A8;
 }
 
 
@@ -73,6 +77,10 @@ p, li {
 
 p, ul, ol {
 	color:black;
+}
+
+p.dark,ul.dark, ol.dark{
+	color:#6584A8;
 }
 
 h1, p {
