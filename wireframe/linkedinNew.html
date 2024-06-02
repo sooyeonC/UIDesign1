@@ -15,12 +15,12 @@
 	nav {
 		width: 100%;
 		height: 53px;
-		position: relative;
+		position: fixed;
 		top: 0px;
 		left:0px;
 		background: white;
 		border-bottom: 1px solid black;
-		z-index: 100px;
+		z-index: 1;
 	}
 
 	div#searchBox {
@@ -36,9 +36,8 @@
 
 	main {
 		width: 1129px;
-		margin:23px auto 0px;
+		margin:76px auto 0px;
 		padding:0px;
-		border: 1px solid purple;
 		display: flex;
 		flex-direction: row;
 	}
@@ -51,7 +50,7 @@
 
 	div#center{
 		position: relative;
-		width:557px;
+		width:556px;
 		margin: 0px 0px 0px 22px;
 	}
 
@@ -92,7 +91,7 @@
             border-radius: 9px;
 		}
 		div#feeds{
-			height: 315px;
+			height:767px;
 			margin: 29px 0px 0px;
 			border: 1px solid black;
             border-radius: 9px;
@@ -122,6 +121,8 @@
 		right:23px;
 		border: 1px solid black;
 		border-radius: 9px;
+		background: white;
+		z-index: 1;
 	}
 
 	</style>
@@ -133,23 +134,23 @@
 	</nav>
 
 	<main>
-		<div id="left">left
+		<div id="left">
 			<div id="profile"></div>
 			<div id="premium"></div>
 			<div id="relationship"></div>
 		</div>
-		<div id="center">center
+		<div id="center">
 			<div id="searchingjob"></div>
 			<div id="posting"></div>
 			<div id="feeds"></div>
 		</div>
-		<div id="right">right
+		<div id="right">
 			<div id="recomm"></div>
 			<div id="hiring"></div>
 		</div>
 	</main>
 
-	<messagebox>messagebox
+	<messagebox onclick="javascript:alert('');">messagebox
 	</messagebox>
 
 </body>
