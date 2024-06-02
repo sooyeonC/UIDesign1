@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>humidity</title>
+	<style>
+		@font-face{
+			font-family: "CirrusCumulus";
+			src: url("assets/CirrusCumulus.woff");
+		}
+
+
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+
+		div#nav{
+			width:100%;
+			height:80px;
+			border-bottom: 1px solid black;
+			font-size:48px;
+			padding:10px 20px;
+			font-family:CirrusCumulus;
+			position:fixed;
+			background: #DDDDDD;
+		}
+
+		main{
+			width:100%;
+			height:100vh;
+			display:flex;
+			flex-direction: row;
+			background: #DDDDDD;
+
+		}
+
+		#menu{
+			position:relative
+			border:1px solid black;
+			width:6em;
+			background: #DDDDDD;
+		}
+
+		#calculator{
+			border-left:1px solid black;
+			width: 23em;
+			background: #DDDDDD;
+		}
+
+		#watervapor{
+			border-left:1px solid black;
+			width:67em;
+			background-color:#5FB2CC;		
+		}
+		#unitForHumidity{
+			width:3em;
+			display: flex;
+			flex-direction: column;
+		}
+		#unitForHumidity div{
+			height:73px;
+			border-top:1px solid black;
+			background-color:0,0,0,0;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div id="nav">How is your indoor humidity?</div>
+
+	<main class='containers'>
+		<div id="menu"></div>
+		<div id="calculator"></div>
+		<div id="watervapor">
+			<div id="unitForHumidity">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>
