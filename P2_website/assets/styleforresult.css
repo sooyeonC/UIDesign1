@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "ex";
+	src: url("ExposureTrial[-100].otf");
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	min-width:0.5wh;
+}
+
+div#nav {
+	width:100%;
+	height:64px;
+	position:relative;
+	padding:10px 20px;
+	z-index:1;
+}
+
+
+body {
+	font-family: -apple-system, ex, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	transition: background 500ms ease;
+	background: #F0F0F0;
+	color: #7A7A7A;
+	
+	font-family: ex;
+	background: #DDDDDD;
+}
+
+h1{
+	font-size:48px;
+	font-family: ex;
+}
+
+p{
+	font-size:24px;
+}
+
+a:link,
+a:visited{
+	color: #B8b8b8;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #7a7a7a;
+}
+
+a#current:link{
+	color:#7a7a7a !important;
+}
+
+div#main{
+	width:100%;
+	height: calc(100vh - 64px);
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	border:3px solid #5FB2CC;
+	border-radius:20px;
+}
+
+div#menu{
+	width:30%;
+	heigt:100%;
+	border-right:3px dotted #5FB2CC;
+	display: flex;
+	flex-direction: row;
+	padding:2% 2%;
+	font-size:24px;
+	min-width:200px;
+}
+div#menulist{
+	width:80%;
+	min-width:140px;
+}
+
+div#container{
+	position:relative;
+	width:100%;
+	height:100%;
+	padding:2%;
+}
+
+div#intro{
+	width:50%;
+}
+
+li {
+	font-size:28px;
+	margin: 0px auto 15px;
+	list-style-type: none;
+}
+
+#bubble {
+	height:48px;
+	position:relative;
+	top:160px;
+}

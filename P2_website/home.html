@@ -2,12 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>humidity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./assets/styleforhome.css">
+	<title>HOW HUMID IS TODAY</title>
 	<style>
 		@font-face{
 			font-family: "CirrusCumulus";
-			src: url("assets/CirrusCumulus.woff");
+			src: url("./assets/CirrusCumulus.woff");
 		}
 
 
@@ -17,31 +18,44 @@
 			box-sizing:border-box;
 		}
 
-		div#nav{
-			width:100%;
-			height:80px;
-			border-bottom: 1px solid black;
+		h1{
 			font-size:48px;
-			padding:10px 20px;
-			font-family:CirrusCumulus;
-			position:fixed;
+			font-family: Exposure;
+		}
+
+		body {
+			font-family: -apple-system, CirrusCumulus, AvaraBold, Exposure, BlinkMacSystemFont, helvetica, arial, sans-serif;
+			transition: background 500ms ease;
+			background: #F0F0F0;
+			color: #7A7A7A;
+
+			font-family: Exposure;
+			font-variation-settings: 'wght' 100;
 			background: #DDDDDD;
 		}
 
 		main{
 			width:100%;
 			height:100vh;
+			position:relative;
+			top:80px;
 			display:flex;
 			flex-direction: row;
 			background: #DDDDDD;
 
 		}
 
-		#menu{
+		#menu.closed{
 			position:relative
 			border:1px solid black;
 			width:6em;
 			background: #DDDDDD;
+		}
+
+		#menu{
+			position:relative;
+			border-right:1px solid black;
+			width:;
 		}
 
 		#calculator{
@@ -71,9 +85,9 @@
 </head>
 <body>
 
-	<div id="nav">How is your indoor humidity?</div>
+	<div id="nav"><h1>How Humid is Today?</h1></div>
 
-	<main class='containers'>
+	<main class="containers">
 		<div id="menu"></div>
 		<div id="calculator"></div>
 		<div id="watervapor">
