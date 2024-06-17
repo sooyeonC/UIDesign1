@@ -16,6 +16,7 @@ header {
 	position:relative;
 	padding:20px 32px;
 	z-index:1;
+	border-bottom:1px solid black;
 }
 
 
@@ -38,21 +39,7 @@ p{
 	font-size:24px;
 }
 
-a:link,
-a:visited{
-	color: #B8b8b8;
-	text-decoration: none;
-}
-
-a:hover{
-	color: #7a7a7a;
-}
-
-a#current:link{
-	color:#7a7a7a !important;
-}
-
-div#container{
+div.container{
 	width:100%;
 	height: calc(100vh - 80px);
 	position: relative;
@@ -64,18 +51,11 @@ div#menu{
 	width:30%;
 	heigt:100%;
 	border-right:1px solid black;
-	display: flex;
-	flex-direction: row;
 	padding:2% 2%;
 	font-size:24px;
 	min-width:200px;
 }
 
-
-
-div#intro{
-	width:50%;
-}
 
 li {
 	font-size:28px;
@@ -83,21 +63,12 @@ li {
 	list-style-type: none;
 }
 
-#bubble {
-	height:48px;
-	position:relative;
-	top:160px;
+#watervapor{
+	background:#5FB2CC;
 }
 
 #mush{
-	position: relative;
-	top: 60px;
-	left:60px;
-	z-index: 10;
-}
-
-div#watervapor{
 	display:flex;
 	justify-content: center;
-	align-items: center;
+	top:100px;
 }
