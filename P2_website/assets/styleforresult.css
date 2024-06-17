@@ -10,11 +10,11 @@
 	min-width:0.5wh;
 }
 
-div#nav {
+header {
 	width:100%;
-	height:64px;
+	height:80px;
 	position:relative;
-	padding:10px 20px;
+	padding:20px 32px;
 	z-index:1;
 }
 
@@ -52,37 +52,26 @@ a#current:link{
 	color:#7a7a7a !important;
 }
 
-div#main{
+div#container{
 	width:100%;
-	height: calc(100vh - 64px);
+	height: calc(100vh - 80px);
 	position: relative;
-	display: flex;
-	flex-direction: row;
-	border:3px solid #5FB2CC;
-	border-radius:20px;
+	display: grid;
+	grid-template-columns: 0.5fr 7fr;
 }
 
 div#menu{
 	width:30%;
 	heigt:100%;
-	border-right:3px dotted #5FB2CC;
+	border-right:1px solid black;
 	display: flex;
 	flex-direction: row;
 	padding:2% 2%;
 	font-size:24px;
 	min-width:200px;
 }
-div#menulist{
-	width:80%;
-	min-width:140px;
-}
 
-div#container{
-	position:relative;
-	width:100%;
-	height:100%;
-	padding:2%;
-}
+
 
 div#intro{
 	width:50%;
@@ -104,4 +93,11 @@ li {
 	position: relative;
 	top: 60px;
 	left:60px;
+	z-index: 10;
+}
+
+div#watervapor{
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
