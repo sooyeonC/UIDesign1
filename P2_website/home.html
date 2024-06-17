@@ -5,92 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./assets/styleforhome.css">
 	<title>HOW HUMID IS TODAY</title>
-	<style>
-		@font-face{
-			font-family: "CirrusCumulus";
-			src: url("./assets/CirrusCumulus.woff");
-		}
-
-
-		*{
-			margin:0;
-			padding:0;
-			box-sizing:border-box;
-		}
-
-		h1{
-			font-size:48px;
-			font-family: Exposure;
-		}
-
-		body {
-			font-family: -apple-system, CirrusCumulus, AvaraBold, Exposure, BlinkMacSystemFont, helvetica, arial, sans-serif;
-			transition: background 500ms ease;
-			background: #F0F0F0;
-			color: #7A7A7A;
-
-			font-family: Exposure;
-			font-variation-settings: 'wght' 100;
-			background: #DDDDDD;
-		}
-
-		main{
-			width:100%;
-			height:100vh;
-			position:relative;
-			top:80px;
-			display:flex;
-			flex-direction: row;
-			background: #DDDDDD;
-
-		}
-
-		#menu.closed{
-			position:relative
-			border:1px solid black;
-			width:6em;
-			background: #DDDDDD;
-		}
-
-		#menu{
-			position:relative;
-			border-right:1px solid black;
-			width:;
-		}
-
-		#calculator{
-			border-left:1px solid black;
-			width: 23em;
-			background: #DDDDDD;
-		}
-
-		#watervapor{
-			border-left:1px solid black;
-			width:67em;
-			background-color:#5FB2CC;		
-		}
-		#unitForHumidity{
-			width:3em;
-			display: flex;
-			flex-direction: column;
-		}
-		#unitForHumidity div{
-			height:73px;
-			border-top:1px solid black;
-			background-color:0,0,0,0;
-		}
-
-
-	</style>
 </head>
 <body>
 
-	<div id="nav"><h1>How Humid is Today?</h1></div>
+	<header><h1>How Humid is Today?</h1></header>
 
-	<main class="containers">
-		<div id="menu"></div>
-		<div id="calculator"></div>
+	<div class="container">
+		<div id="menu">
+			<div id="bubble"><a href="aboutwebsite.html"><img src="assets/bubble.png" width="48px"/></a></div>
+		</div>
+
+		<div id="calculator">
+			<div id="where"><a href="outdoor.html">indoor</a></div>
+			<form id="temp">
+				<label>temperature</label></br>
+				<input type="text" name="temp"/>
+			</form>
+			<form id="hum">
+				<label>humidity</label></br>
+				<input type="text" name="temp"/>
+			</form>
+			<button><a href="result.html">go</a>
+		</div>
+
 		<div id="watervapor">
+			<div id="union"><img src="Union.png" width="48px"/></div>
 			<div id="unitForHumidity">
 				<div></div>
 				<div></div>
@@ -104,8 +43,8 @@
 				<div></div>
 				<div></div>
 			</div>
-		</div>
-	</main>
 
-</body>
-</html>
+		</div>
+
+	</body>
+	</html>

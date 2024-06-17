@@ -105,18 +105,6 @@ font-size:40px;
 	border-bottom: 1px solid black;
 }
 
-form#temp::after{
-	content: "°C";
-	display: inline-block;
-	font-size: 24px;
-}
-
-form#hum::after{
-	content: "%";
-	display: inline-block;
-	font-size: 24px;
-}
-
 #watervapor{
 	border-left:1px solid black;
 	width:67em;
@@ -131,10 +119,6 @@ form#hum::after{
 	height:70px;
 	border-top:1px solid black;
 	background-color:0,0,0,0;
-}
-
-#union{
-	position:relative;
 }
 
 button{
